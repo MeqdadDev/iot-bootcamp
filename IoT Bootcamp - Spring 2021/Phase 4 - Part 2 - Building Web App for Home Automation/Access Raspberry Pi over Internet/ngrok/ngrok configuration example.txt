@@ -1,0 +1,11 @@
+authtoken: Your Authtoken from your account
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 22
+  dashboard:
+    proto: http
+    addr: 5000
+  vnc:
+    proto: tcp
+    addr: 5900
