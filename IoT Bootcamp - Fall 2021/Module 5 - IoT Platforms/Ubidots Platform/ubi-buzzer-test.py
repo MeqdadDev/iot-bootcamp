@@ -2,7 +2,7 @@ from gpiozero import Buzzer
 from time import sleep
 import requests
 
-TOKEN = "BBFF-y1VmdRpiYnFHK4wYJ7SlCvCDW2v4xQ"  # Put your TOKEN here
+TOKEN = "Get your token from your Ubidots account"  # Put your TOKEN here
 DEVICE = "buzzer"  # Put your device label here
 VARIABLE = "buzzer"  # Put your first variable label here
 DELAY = 1

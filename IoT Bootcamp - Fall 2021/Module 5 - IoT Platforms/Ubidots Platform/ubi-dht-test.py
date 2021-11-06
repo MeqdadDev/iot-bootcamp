@@ -2,8 +2,8 @@ import time
 import requests
 import dht22
 
-TOKEN = "BBFF-GJFmOMXeAW2bcWUW5AHFB2nVXwKKGn"  # Put your TOKEN here
-DEVICE_LABEL = "dht22"  # Put your device label here 
+TOKEN = "Get your token from your Ubidots account"  # Put your TOKEN here
+DEVICE_LABEL = "dht22"  # Put your device label here
 VARIABLE_LABEL_1 = "temperature"  # Put your first variable label here
 VARIABLE_LABEL_2 = "humidity"  # Put your second variable label here
 
