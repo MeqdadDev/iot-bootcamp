@@ -32,9 +32,9 @@ def get_measurements():
 
 
 def sendData(temp: float, humidity: float):
-	url = 'https://api.thingspeak.com/update'
-	params = {'key': write_key, 'field1': temp, 'field2': humidity}
-	res = requests.get(url, params=params)
+    url = 'https://api.thingspeak.com/update'
+    params = {'key': write_key, 'field1': temp, 'field2': humidity}
+    res = requests.get(url, params=params)
 
 if __name__ == "__main__":
     while True:
